@@ -1,0 +1,21 @@
+Devido a atualização do React, até a data de hoje 16/05/2023 é impossível
+trabalhar com styled-components.
+
+Por tanto devemos realizar um downgrade no npm para a versão 7.0.0 da seguinte
+forma:
+npm i --legacy-peer-deps styled-components
+Primeiro com o ctrl + j rode o npm i -g npm@7
+Segundo rode o
+
+Feito isso, após realizar o downgrade. com estes comandos, instalamos o styled-component
+da seguinte forma:
+
+npm i styled-components
+
+Agora vamos instalar a tipagem do Styled Component
+
+npm i @types/styled-components -D
+
+Para as rotas vamos instalar o react-router-dom
+
+npm i react-router-dom
