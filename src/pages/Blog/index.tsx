@@ -1,9 +1,10 @@
+import { Profile } from "./components/Profile";
 import { BlogContainer } from "./styles";
 
 export function Blog() {
   return (
     <BlogContainer>
-      <p>Blog</p>
+      <Profile />
     </BlogContainer>
   );
 }

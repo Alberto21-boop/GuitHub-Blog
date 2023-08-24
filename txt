@@ -19,3 +19,20 @@ npm i @types/styled-components -D
 Para as rotas vamos instalar o react-router-dom
 
 npm i react-router-dom
+
+E para os ícones desta vez não vamos utilizar o famoso phorphors não, desta vez
+vamos de fontawersome mesmo pelo comando:
+
+npm install @fortawesome/react-fontawesome
+
+Feito isso, pegaremos os ícones com este pacote
+
+npm install @fortawesome/free-solid-svg-icons
+
+E para estes pacotes funcionar devemos instalar o seguinte pacote
+
+npm install @fortawesome/fontawesome-svg-core
+
+Para os ícones proximo da foto é necessário instalar outro pacote
+
+npm install @fortawesome/free-brands-svg-icons
