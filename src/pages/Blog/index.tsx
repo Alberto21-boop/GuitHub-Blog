@@ -1,10 +1,24 @@
+import { Post } from "./components/Post";
 import { Profile } from "./components/Profile";
-import { BlogContainer } from "./styles";
+import { SearchInput } from "./components/SearchInput";
+import { PostsListContainer } from "./styles";
 
 export function Blog() {
   return (
-    <BlogContainer>
+    <>
       <Profile />
-    </BlogContainer>
+      <SearchInput />
+
+      <PostsListContainer>
+        <Post />
+        <Post />
+        <Post />
+        <Post />
+        <Post />
+        <Post />
+        <Post />
+        <Post />
+      </PostsListContainer>
+    </>
   );
 }
