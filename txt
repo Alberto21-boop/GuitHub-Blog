@@ -36,3 +36,7 @@ npm install @fortawesome/fontawesome-svg-core
 Para os ícones proximo da foto é necessário instalar outro pacote
 
 npm install @fortawesome/free-brands-svg-icons
+
+Para implementarmos a api no post , la no arquivo blog vamos instalar o axios
+
+npm install axios

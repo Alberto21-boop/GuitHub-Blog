@@ -12,7 +12,6 @@ type ExternalLinkProps = ComponentProps<typeof ExternalLinkContainer> & {
 export function ExternalLink({
   text,
   icon,
-  $variant,
   ...rest
 }: ExternalLinkProps) {
   return (
