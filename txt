@@ -40,3 +40,12 @@ npm install @fortawesome/free-brands-svg-icons
 Para implementarmos a api no post , la no arquivo blog vamos instalar o axios
 
 npm install axios
+
+Para a data dos posts vamos instalar a biblioteca moment
+
+npm install moment
+
+Para fazermos a busca vamos utilizar o zod
+
+npm install react-hook-form zod
+npm install @hookform/resolvers
