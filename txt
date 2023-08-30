@@ -49,3 +49,17 @@ Para fazermos a busca vamos utilizar o zod
 
 npm install react-hook-form zod
 npm install @hookform/resolvers
+
+Para o markdown da segunda pagina , vamos instalar a seguinte biblioteca
+
+npm install react-markdown
+
+E para melhorarmos a nossa estilização ainda mais, para atuar junto com o markdown
+vamos instalar a seguinte biblioteca agora
+
+npm install react-syntax-highlighter
+
+E claro, não devemos nos esquecer do @types do pacote highlighter, por isso vamos
+instalar o pacote
+
+npm install @types/react-syntax-highlighter -D
